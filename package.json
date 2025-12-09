@@ -1,0 +1,20 @@
+{
+  "name": "brdg-jpmp-backend",
+  "version": "1.0.0",
+  "description": "Backend API for BRDG JPMP kiosk application",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "init-db": "node src/app.js --init-database",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "koa": "^2.15.4",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "postgres": "^3.4.5"
+  }
+}
